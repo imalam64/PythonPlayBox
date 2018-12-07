@@ -13,3 +13,21 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+""" x = 1
+y = 2.5
+name = 'John'
+is_cool = True """
+
+x, y, name, is_cool = (1, 2.5, 'John', True)
+a = x + y
+
+print(x, y, name, is_cool, a)
+print(type(a))
+
+x = str(x)
+
+a = x + y
+
+print(type(x))
+print(a)
